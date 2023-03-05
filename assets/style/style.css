@@ -1,0 +1,41 @@
+body {
+  background: url(../img/15.jpg);
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  -moz-background-size: 100%;
+  -ms-background-size: 100%;
+  -khtml-background-size: 100%;
+  background-size: 100%;
+}
+
+.field {
+  position: relative;
+  border: 20px solid rgb(59, 59, 59);
+  max-width: 600px;
+  height: 600px;
+  margin: 100px auto;
+  background-color: rgba(141, 141, 141, 0.712);
+  border-radius: 10px;
+}
+
+.cell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+
+  box-sizing: border-box;
+  border: 3px solid rgb(42, 42, 42);
+  width: 25%;
+  height: 25%;
+  border-radius: 20px;
+  padding: 35px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(67, 67, 67);
+
+  background-image: radial-gradient(circle,
+      rgb(249, 253, 125),
+      rgb(48, 36, 203));
+}

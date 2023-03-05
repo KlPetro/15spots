@@ -1,0 +1,51 @@
+@media screen and (max-width: 640px) {
+  .field {
+    width: 460px;
+    height: 460px;
+  }
+
+  .cell {
+    font-size: 50px;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .field {
+    width: 380px;
+    height: 380px;
+    border: 10px solid rgb(59, 59, 59);
+  }
+
+  .cell {
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .field {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cell {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .field {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cell {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+}
